@@ -1,0 +1,38 @@
+/* design: Derya Acar */
+/* github: https://github.com/deryaxacar */
+
+/* Sayfa ortalanmış, yatayda ve dikeyde hizalanmış */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; /* Sayfa kenar boşlukları olmasın */
+    background: linear-gradient(135deg, #667eea, #764ba2); /* Arka plan rengi lineer gradient */
+    font-family: 'Arial', sans-serif; /* Yazı tipi ailesi */
+}
+
+/* Canvas özellikleri */
+canvas {
+    border: 1px solid #fff;
+    display: block;
+    margin: 0 auto;
+    background-color: #1f2833;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Başlık özellikleri */
+h2 {
+    text-align: center;
+    color: #1f2833;
+    margin-top: 20px;
+}
+
+/* Skor özellikleri */
+#score {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
